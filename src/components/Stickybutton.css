@@ -1,0 +1,35 @@
+.sticky-button01 {
+    position: fixed;
+    padding: 8px 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    bottom: 20px;
+    opacity: 20;
+}
+
+#sticky-button01:hover {
+    background-color: gray;
+}
+
+#sticky-button02 {
+    position: fixed;
+    padding: 8px 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    bottom: 80 px;
+    opacity: 20;
+    border-bottom: 20px;
+}
+
+#sticky-button02:hover {
+    background-color: gray;
+}
+
+
+   

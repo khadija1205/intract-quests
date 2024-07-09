@@ -1,0 +1,105 @@
+.dictionaryBlock {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.dictionaryContainer {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid var(--White-20, rgba(255, 255, 255, 0.2));
+}
+
+.dictionaryHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.117px;
+    gap: 8px;
+}
+
+.dictionaryTitle {
+    color: var(--White-100, #fff);
+    font-size: 24px;
+    line-height: 30px;
+    font-family: Outfit, sans-serif;
+}
+
+.dictionarySubtitle {
+    color: var(--White-40, rgba(255, 255, 255, 0.4));
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+}
+
+.dictionaryImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bottom {
+    width: 100vw;
+    max-width: 1150px;
+    height: 20%;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    z-index: 3;
+}
+
+.titl {
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.117px;
+}
+
+.bottomHeading {
+    color: #fff9;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    line-height: 30px;
+    mix-blend-mode: plus-lighter;
+    font-family: Outfit, sans-serif;
+}
+
+.bottomSubHeading {
+    color: var(--White-40, rgba(255, 255, 255, 0.4));
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 20px;
+    mix-blend-mode: plus-lighter;
+    font-family: Outfit, sans-serif;
+}
+
+.dictionaryImageContainer {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    border: 1px solid var(--White-20, rgba(255, 255, 255, 0.2));
+    background: var(--Black-40, rgba(0, 0, 0, 0.4));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    font-size: 20px;
+    box-sizing: border-box;
+}

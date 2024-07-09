@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/Stickybutton';
+import { GetStarted, Footer, Crypto, Learner, Earner, Reward, Dictionary } from './components';
+import Airdrop from './components/Airdrop';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="appContainer">
+            <GetStarted />
+            <div className="content">
+                <Crypto />
+                <Learner />
+                <Airdrop />
+                <Earner />
+                <Reward />
+                <Dictionary />
+            </div>
+            <Footer />
+        </div>
+    );
+};
 
 export default App;

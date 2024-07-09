@@ -1,4 +1,4 @@
-![GetStarted](./src/GithubImages/Get Started.png)
+![GetStarted](./src/GithubImages/GetStarted.png)
 
 ![CryptoBasics](./src/GithubImages/CryptoBasics.png)
 
